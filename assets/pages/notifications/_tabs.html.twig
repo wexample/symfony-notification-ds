@@ -1,0 +1,16 @@
+{#- The inbox and its preferences, as tabs; marking everything read at the
+    far end, posted with the application's form token. -#}
+{{ page_tabs([
+    { label: 'WexampleSymfonyNotificationDsBundle.pages.notifications.index::tab.all' | trans, route: 'notification_inbox', icon: 'ph:bold/tray' },
+    { label: 'WexampleSymfonyNotificationDsBundle.pages.notifications.index::tab.unread' | trans, route: 'notification_inbox_unread', icon: 'ph:bold/envelope-simple', count: unread_count|default(null) ?: null },
+    { label: 'WexampleSymfonyNotificationDsBundle.pages.notifications.index::tab.preferences' | trans, route: 'notification_preferences', icon: 'ph:bold/sliders-horizontal' },
+], {
+    back: false,
+    actions: unread_count|default(0) ? [{
+        icon: 'ph:bold/checks',
+        label: 'WexampleSymfonyNotificationDsBundle.pages.notifications.index::read_all' | trans,
+        href: path('notification_inbox_read_all'),
+        method: 'post',
+        token: csrf_token('submit'),
+    }] : null,
+}) }}

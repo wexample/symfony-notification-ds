@@ -1,0 +1,40 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- What the account was told, newest first: a line each, lit while unread,
+    opening its subject — and marking it read — when it has one. -#}
+{%- block page_body -%}
+    {%- include '@WexampleSymfonyNotificationDsBundle/pages/notifications/_tabs.html.twig' -%}
+
+    {%- set level_icons = {
+        info: 'ph:bold/info',
+        success: 'ph:bold/check-circle',
+        warning: 'ph:bold/warning',
+        danger: 'ph:bold/warning-octagon',
+    } -%}
+
+    <section class="block block--card">
+        <div class="block--body">
+            {%- if rows is empty -%}
+                <div class="empty">{{ (unread_only ? '@page::empty.unread' : '@page::empty.all') | trans }}</div>
+            {%- else -%}
+                <div class="list-expanded">
+                    <div class="list-expanded--items">
+                        {%- for row in rows -%}
+                            {{ bar(row.title, {
+                                icon: level_icons[row.level] ?? 'ph:bold/bell',
+                                subtitle: row.body,
+                                meta: date_display(row.date, 'date_time_short'),
+                                trailing: row.read ? null : led('info', null, { title: '@page::unread' | trans }),
+                                href: row.has_url or not row.read ? path('notification_inbox_open', { id: row.id }) : null,
+                                class: 'list-expanded--item',
+                            }) }}
+                        {%- endfor -%}
+                    </div>
+                </div>
+                {{ pagination(page, pages_count, { hide_single: true }) }}
+            {%- endif -%}
+        </div>
+    </section>
+{%- endblock -%}

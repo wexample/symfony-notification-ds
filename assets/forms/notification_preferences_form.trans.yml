@@ -1,0 +1,15 @@
+en:
+  channel:
+    mail: by mail
+  action:
+    submit: Save
+  success:
+    message: Preferences saved.
+
+fr:
+  channel:
+    mail: par mail
+  action:
+    submit: Enregistrer
+  success:
+    message: Préférences enregistrées.

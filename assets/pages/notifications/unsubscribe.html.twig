@@ -1,0 +1,18 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- Reached from a mail, signed in or not: says what the link did. -#}
+{%- block page_body -%}
+    {%- if done -%}
+        {{ message_success('@page::done' | trans) }}
+    {%- else -%}
+        {{ message_warning('@page::invalid' | trans) }}
+    {%- endif -%}
+
+    {%- if app.user -%}
+        <div class="cluster">
+            {{ button_link('ph:bold/sliders-horizontal', '@page::preferences' | trans, path('notification_preferences')) }}
+        </div>
+    {%- endif -%}
+{%- endblock -%}

@@ -1,0 +1,13 @@
+en:
+  page_title: Unsubscribe
+  page_icon: ph:bold/bell-slash
+  done: Done. You will no longer receive these notifications by mail; they still land in your inbox.
+  invalid: This link is not valid, or no longer is.
+  preferences: All my preferences
+
+fr:
+  page_title: Désinscription
+  page_icon: ph:bold/bell-slash
+  done: C'est fait. Vous ne recevrez plus ces notifications par mail ; elles arrivent toujours dans votre boîte.
+  invalid: Ce lien n'est pas valide, ou ne l'est plus.
+  preferences: Toutes mes préférences

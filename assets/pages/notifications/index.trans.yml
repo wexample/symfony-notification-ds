@@ -1,0 +1,25 @@
+en:
+  page_title: Notifications
+  page_icon: ph:bold/bell
+  tab:
+    all: All
+    unread: Unread
+    preferences: Preferences
+  read_all: Mark all read
+  unread: Unread
+  empty:
+    all: Nothing yet.
+    unread: Everything is read.
+
+fr:
+  page_title: Notifications
+  page_icon: ph:bold/bell
+  tab:
+    all: Toutes
+    unread: Non lues
+    preferences: Préférences
+  read_all: Tout marquer comme lu
+  unread: Non lue
+  empty:
+    all: Rien pour l'instant.
+    unread: Tout est lu.

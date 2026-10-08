@@ -1,0 +1,19 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{#- One switch per category and channel, filed under the category's group
+    when it has one. -#}
+{% block form_body %}
+    {%- set groups = form.vars.preference_groups|default({}) -%}
+    {%- set current_group = null -%}
+    {% for child in form %}
+        {% if '__' in child.vars.name %}
+            {%- set group = groups[child.vars.name] ?? null -%}
+            {%- if group and group != current_group -%}
+                <h3>{{ group }}</h3>
+                {%- set current_group = group -%}
+            {%- endif -%}
+            {{ form_row(child) }}
+        {% endif %}
+    {% endfor %}
+    {{ form_actions(form) }}
+{% endblock %}

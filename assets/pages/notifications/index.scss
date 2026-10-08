@@ -1,0 +1,9 @@
+// The inbox: its tabs and their actions, a line per notification, its pages.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/empty';
+@use '@wexample/symfony-design-system/components/page-tabs/page-tabs';
+@use '@wexample/symfony-design-system/components/list-expanded/list-expanded';
+@use '@wexample/symfony-design-system/components/bar/bar';
+@use '@wexample/symfony-design-system/components/led/led';
+@use '@wexample/symfony-design-system/components/date-display/date-display';
+@use '@wexample/symfony-design-system/components/pagination/pagination';

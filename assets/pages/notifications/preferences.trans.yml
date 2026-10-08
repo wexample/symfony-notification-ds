@@ -1,0 +1,9 @@
+en:
+  page_title: Notification preferences
+  page_icon: ph:bold/sliders-horizontal
+  intro: Each notification lands in your inbox. Choose which also reach you by mail.
+
+fr:
+  page_title: Préférences de notification
+  page_icon: ph:bold/sliders-horizontal
+  intro: Chaque notification arrive dans votre boîte. Choisissez celles qui vous parviennent aussi par mail.
