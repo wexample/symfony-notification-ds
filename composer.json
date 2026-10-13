@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-notification-ds",
   "description": "Design-system screens for symfony-notification: the inbox, the preferences, the page an unsubscribe link opens",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "library",
   "license": "MIT",
   "autoload": {
