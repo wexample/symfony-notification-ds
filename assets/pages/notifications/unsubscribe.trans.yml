@@ -11,3 +11,10 @@ fr:
   done: C'est fait. Vous ne recevrez plus ces notifications par mail ; elles arrivent toujours dans votre boîte.
   invalid: Ce lien n'est pas valide, ou ne l'est plus.
   preferences: Toutes mes préférences
+
+zh:
+  page_title: 取消订阅
+  page_icon: 'ph:bold/bell-slash'
+  done: 完成。您将不再通过邮件接收这些通知；它们仍会进入您的收件箱。
+  invalid: 此链接无效，或者已不再有效。
+  preferences: 我的所有偏好

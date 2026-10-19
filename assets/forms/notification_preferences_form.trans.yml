@@ -13,3 +13,11 @@ fr:
     submit: Enregistrer
   success:
     message: Préférences enregistrées.
+
+zh:
+  channel:
+    mail: 通过邮件
+  action:
+    submit: 保存
+  success:
+    message: 偏好设置已保存。

@@ -7,3 +7,8 @@ fr:
   page_title: Préférences de notification
   page_icon: ph:bold/sliders-horizontal
   intro: Chaque notification arrive dans votre boîte. Choisissez celles qui vous parviennent aussi par mail.
+
+zh:
+  page_title: 通知偏好设置
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 每条通知都会进入您的收件箱。选择哪些通知也通过邮件发送给您。

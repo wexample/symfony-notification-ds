@@ -23,3 +23,16 @@ fr:
   empty:
     all: Rien pour l'instant.
     unread: Tout est lu.
+
+zh:
+  page_title: 通知
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: 全部
+    unread: 未读
+    preferences: 偏好设置
+  read_all: 标记全部为已读
+  unread: 未读
+  empty:
+    all: 还没有任何内容。
+    unread: 所有内容均已阅读。
