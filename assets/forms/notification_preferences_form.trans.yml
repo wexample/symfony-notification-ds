@@ -21,3 +21,163 @@ zh:
     submit: 保存
   success:
     message: 偏好设置已保存。
+
+ar:
+  channel:
+    mail: بالبريد
+  action:
+    submit: حفظ
+  success:
+    message: 'تم حفظ التفضيلات.'
+
+hi:
+  channel:
+    mail: 'ईमेल द्वारा'
+  action:
+    submit: सहेजें
+  success:
+    message: 'प्राथमिकताएँ सहेजी गईं।'
+
+he:
+  channel:
+    mail: בדואר
+  action:
+    submit: שמור
+  success:
+    message: 'העדפות נשמרו.'
+
+fa:
+  channel:
+    mail: 'از طریق ایمیل'
+  action:
+    submit: ذخیره
+  success:
+    message: 'تنظیمات ذخیره شد.'
+
+ur:
+  channel:
+    mail: 'میل کے ذریعے'
+  action:
+    submit: 'محفوظ کریں'
+  success:
+    message: 'ترجیحات محفوظ ہو گئیں۔'
+
+ja:
+  channel:
+    mail: メールで
+  action:
+    submit: 保存
+  success:
+    message: 設定が保存されました。
+
+ko:
+  channel:
+    mail: 우편으로
+  action:
+    submit: 저장
+  success:
+    message: '설정이 저장되었습니다.'
+
+bn:
+  channel:
+    mail: মেইলে
+  action:
+    submit: 'সংরক্ষণ করুন'
+  success:
+    message: 'পছন্দসমূহ সংরক্ষিত হয়েছে।'
+
+th:
+  channel:
+    mail: ทางไปรษณีย์
+  action:
+    submit: บันทึก
+  success:
+    message: บันทึกการตั้งค่าเรียบร้อยแล้ว.
+
+de:
+  channel:
+    mail: 'per E-Mail'
+  action:
+    submit: Speichern
+  success:
+    message: 'Einstellungen gespeichert.'
+
+fi:
+  channel:
+    mail: sähköpostitse
+  action:
+    submit: Tallenna
+  success:
+    message: 'Asetukset tallennettu.'
+
+ru:
+  channel:
+    mail: 'по почте'
+  action:
+    submit: Сохранить
+  success:
+    message: 'Настройки сохранены.'
+
+pl:
+  channel:
+    mail: mailem
+  action:
+    submit: Zapisz
+  success:
+    message: 'Ustawienia zostały zapisane.'
+
+es:
+  channel:
+    mail: 'por correo'
+  action:
+    submit: Guardar
+  success:
+    message: 'Preferencias guardadas.'
+
+it:
+  channel:
+    mail: 'via email'
+  action:
+    submit: Salva
+  success:
+    message: 'Preferenze salvate.'
+
+pt_BR:
+  channel:
+    mail: 'por email'
+  action:
+    submit: Salvar
+  success:
+    message: 'Preferências salvas.'
+
+tr:
+  channel:
+    mail: 'posta ile'
+  action:
+    submit: Kaydet
+  success:
+    message: 'Tercihler kaydedildi.'
+
+vi:
+  channel:
+    mail: 'qua thư'
+  action:
+    submit: Lưu
+  success:
+    message: 'Sở thích đã được lưu.'
+
+id:
+  channel:
+    mail: 'melalui email'
+  action:
+    submit: Simpan
+  success:
+    message: 'Preferensi telah disimpan.'
+
+nl:
+  channel:
+    mail: 'per e-mail'
+  action:
+    submit: Opslaan
+  success:
+    message: 'Voorkeuren opgeslagen.'

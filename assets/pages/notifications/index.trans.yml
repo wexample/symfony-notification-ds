@@ -36,3 +36,263 @@ zh:
   empty:
     all: 还没有任何内容。
     unread: 所有内容均已阅读。
+
+ar:
+  page_title: الإشعارات
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: الكل
+    unread: 'غير المقروء'
+    preferences: التفضيلات
+  read_all: 'تحديد الكل كمقروء'
+  unread: 'غير المقروء'
+  empty:
+    all: 'لا شيء حتى الآن.'
+    unread: 'كل شيء مقروء.'
+
+hi:
+  page_title: सूचनाएँ
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: सभी
+    unread: अविभाजित
+    preferences: प्राथमिकताएँ
+  read_all: 'सभी को पढ़ें'
+  unread: अविभाजित
+  empty:
+    all: 'अभी कुछ नहीं।'
+    unread: 'सब कुछ पढ़ लिया गया है।'
+
+he:
+  page_title: התראות
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: הכל
+    unread: 'לא נקראים'
+    preferences: העדפות
+  read_all: 'סמן הכל כנקרא'
+  unread: 'לא נקראים'
+  empty:
+    all: 'עוד אין כלום.'
+    unread: 'הכל נקרא.'
+
+fa:
+  page_title: اعلان‌ها
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: همه
+    unread: خوانده‌نشده
+    preferences: تنظیمات
+  read_all: 'همه را خوانده شده علامت‌گذاری کن'
+  unread: خوانده‌نشده
+  empty:
+    all: 'هنوز چیزی نیست.'
+    unread: 'همه خوانده شده‌اند.'
+
+ur:
+  page_title: نوٹیفکیشنز
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: سب
+    unread: نئے
+    preferences: ترجیحات
+  read_all: 'سب کو پڑھا ہوا مارک کریں'
+  unread: نئے
+  empty:
+    all: 'ابھی کچھ نہیں۔'
+    unread: 'سب کچھ پڑھ لیا گیا ہے۔'
+
+ja:
+  page_title: 通知
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: すべて
+    unread: 未読
+    preferences: 設定
+  read_all: すべて既読にする
+  unread: 未読
+  empty:
+    all: まだ何もありません。
+    unread: すべて既読です。
+
+ko:
+  page_title: 알림
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: 모두
+    unread: '읽지 않음'
+    preferences: 환경설정
+  read_all: '모두 읽음으로 표시'
+  unread: '읽지 않음'
+  empty:
+    all: '아직 아무것도 없습니다.'
+    unread: '모든 항목이 읽음 상태입니다.'
+
+bn:
+  page_title: নোটিফিকেশন
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: সব
+    unread: অপঠিত
+    preferences: পছন্দসমূহ
+  read_all: 'সবগুলো পড়া হিসেবে চিহ্নিত করুন'
+  unread: অপঠিত
+  empty:
+    all: 'এখনো কিছুই নেই।'
+    unread: 'সবকিছু পড়া হয়েছে।'
+
+th:
+  page_title: การแจ้งเตือน
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: ทั้งหมด
+    unread: ยังไม่ได้อ่าน
+    preferences: การตั้งค่า
+  read_all: ทำเครื่องหมายว่าอ่านแล้วทั้งหมด
+  unread: ยังไม่ได้อ่าน
+  empty:
+    all: ยังไม่มีอะไรเลย.
+    unread: ทุกอย่างถูกอ่านแล้ว.
+
+de:
+  page_title: Benachrichtigungen
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Alle
+    unread: Ungelesen
+    preferences: Einstellungen
+  read_all: 'Alle als gelesen markieren'
+  unread: Ungelesen
+  empty:
+    all: 'Noch nichts.'
+    unread: 'Alles ist gelesen.'
+
+fi:
+  page_title: Ilmoitukset
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Kaikki
+    unread: Lukemattomat
+    preferences: Asetukset
+  read_all: 'Merkitse kaikki luetuiksi'
+  unread: Lukemattomat
+  empty:
+    all: 'Ei vielä mitään.'
+    unread: 'Kaikki on luettu.'
+
+ru:
+  page_title: Уведомления
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Все
+    unread: Непрочитанные
+    preferences: Настройки
+  read_all: 'Пометить все как прочитанные'
+  unread: Непрочитанные
+  empty:
+    all: 'Пока ничего нет.'
+    unread: 'Все прочитано.'
+
+pl:
+  page_title: Powiadomienia
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Wszystkie
+    unread: Nieprzeczytane
+    preferences: Preferencje
+  read_all: 'Oznacz wszystko jako przeczytane'
+  unread: Nieprzeczytane
+  empty:
+    all: 'Na razie nic.'
+    unread: 'Wszystko jest przeczytane.'
+
+es:
+  page_title: Notificaciones
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Todos
+    unread: 'No leídos'
+    preferences: Preferencias
+  read_all: 'Marcar todo como leído'
+  unread: 'No leídos'
+  empty:
+    all: 'Nada por el momento.'
+    unread: 'Todo está leído.'
+
+it:
+  page_title: Notifiche
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Tutti
+    unread: 'Non letti'
+    preferences: Preferenze
+  read_all: 'Segna tutto come letto'
+  unread: 'Non letto'
+  empty:
+    all: 'Ancora niente.'
+    unread: 'Tutto è stato letto.'
+
+pt_BR:
+  page_title: Notificações
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Todos
+    unread: 'Não lidas'
+    preferences: Preferências
+  read_all: 'Marcar todos como lidos'
+  unread: 'Não lidas'
+  empty:
+    all: 'Nada ainda.'
+    unread: 'Tudo foi lido.'
+
+tr:
+  page_title: Bildirimler
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Hepsi
+    unread: Okunmamış
+    preferences: Tercihler
+  read_all: 'Hepsini okundu olarak işaretle'
+  unread: Okunmamış
+  empty:
+    all: 'Henüz bir şey yok.'
+    unread: 'Her şey okundu.'
+
+vi:
+  page_title: 'Thông báo'
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: 'Tất cả'
+    unread: 'Chưa đọc'
+    preferences: 'Tùy chọn'
+  read_all: 'Đánh dấu tất cả đã đọc'
+  unread: 'Chưa đọc'
+  empty:
+    all: 'Chưa có gì.'
+    unread: 'Mọi thứ đã được đọc.'
+
+id:
+  page_title: Notifikasi
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Semua
+    unread: 'Belum dibaca'
+    preferences: Preferensi
+  read_all: 'Tandai semua dibaca'
+  unread: 'Belum dibaca'
+  empty:
+    all: 'Belum ada.'
+    unread: 'Semua sudah dibaca.'
+
+nl:
+  page_title: Meldingen
+  page_icon: 'ph:bold/bell'
+  tab:
+    all: Alles
+    unread: Ongelezen
+    preferences: Voorkeuren
+  read_all: 'Markeer alles als gelezen'
+  unread: Ongelezen
+  empty:
+    all: 'Nog niets.'
+    unread: 'Alles is gelezen.'

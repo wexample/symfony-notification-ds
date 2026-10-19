@@ -9,3 +9,83 @@ fr:
 zh:
   page_title: 未读通知
   page_icon: 'ph:bold/bell-ringing'
+
+ar:
+  page_title: 'إشعارات غير مقروءة'
+  page_icon: 'ph:bold/bell-ringing'
+
+hi:
+  page_title: 'अविज्ञात सूचनाएँ'
+  page_icon: 'ph:bold/bell-ringing'
+
+he:
+  page_title: 'התראות שלא נקראו'
+  page_icon: 'ph:bold/bell-ringing'
+
+fa:
+  page_title: 'اطلاعیه‌های خوانده‌نشده'
+  page_icon: 'ph:bold/bell-ringing'
+
+ur:
+  page_title: 'پڑھی نہیں گئی نوٹیفکیشنز'
+  page_icon: 'ph:bold/bell-ringing'
+
+ja:
+  page_title: 未読の通知
+  page_icon: 'ph:bold/bell-ringing'
+
+ko:
+  page_title: '읽지 않은 알림'
+  page_icon: 'ph:bold/bell-ringing'
+
+bn:
+  page_title: 'অপঠিত বিজ্ঞপ্তি'
+  page_icon: 'ph:bold/bell-ringing'
+
+th:
+  page_title: การแจ้งเตือนที่ยังไม่ได้อ่าน
+  page_icon: 'ph:bold/bell-ringing'
+
+de:
+  page_title: 'Ungelesene Benachrichtigungen'
+  page_icon: 'ph:bold/bell-ringing'
+
+fi:
+  page_title: 'Lukemattomat ilmoitukset'
+  page_icon: 'ph:bold/bell-ringing'
+
+ru:
+  page_title: 'Непрочитанные уведомления'
+  page_icon: 'ph:bold/bell-ringing'
+
+pl:
+  page_title: 'Nieprzeczytane powiadomienia'
+  page_icon: 'ph:bold/bell-ringing'
+
+es:
+  page_title: 'Notificaciones no leídas'
+  page_icon: 'ph:bold/bell-ringing'
+
+it:
+  page_title: 'Notifiche non lette'
+  page_icon: 'ph:bold/bell-ringing'
+
+pt_BR:
+  page_title: 'Notificações não lidas'
+  page_icon: 'ph:bold/bell-ringing'
+
+tr:
+  page_title: 'Okunmamış bildirimler'
+  page_icon: 'ph:bold/bell-ringing'
+
+vi:
+  page_title: 'Thông báo chưa đọc'
+  page_icon: 'ph:bold/bell-ringing'
+
+id:
+  page_title: 'Notifikasi yang Belum Dibaca'
+  page_icon: 'ph:bold/bell-ringing'
+
+nl:
+  page_title: 'Ongelezen meldingen'
+  page_icon: 'ph:bold/bell-ringing'

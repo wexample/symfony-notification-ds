@@ -18,3 +18,143 @@ zh:
   done: 完成。您将不再通过邮件接收这些通知；它们仍会进入您的收件箱。
   invalid: 此链接无效，或者已不再有效。
   preferences: 我的所有偏好
+
+ar:
+  page_title: 'إلغاء الاشتراك'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'تم. لن تتلقى هذه الإشعارات عبر البريد بعد الآن؛ لكنها لا تزال تصل إلى صندوق الوارد الخاص بك.'
+  invalid: 'هذا الرابط غير صالح، أو لم يعد صالحًا.'
+  preferences: 'جميع تفضيلاتي'
+
+hi:
+  page_title: 'अनसब्सक्राइब करें'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'हो गया। आप अब इन सूचनाओं को मेल द्वारा प्राप्त नहीं करेंगे; वे अभी भी आपके इनबॉक्स में आएंगे।'
+  invalid: 'यह लिंक मान्य नहीं है, या अब मान्य नहीं है।'
+  preferences: 'मेरी सभी प्राथमिकताएँ'
+
+he:
+  page_title: 'הפסיק מנוי'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'בוצע. לא תקבל יותר התראות אלה בדואר, הן עדיין יגיעו לתיבת הדואר שלך.'
+  invalid: 'הקישור הזה אינו תקף, או שאינו תקף יותר.'
+  preferences: 'כל ההעדפות שלי'
+
+fa:
+  page_title: 'لغو اشتراک'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'انجام شد. دیگر این اطلاعیه‌ها به ایمیلتان ارسال نخواهد شد؛ اما همچنان در صندوق ورودی شما قرار می‌گیرند.'
+  invalid: 'این لینک معتبر نیست یا دیگر معتبر نیست.'
+  preferences: 'تمامی تنظیمات من'
+
+ur:
+  page_title: 'انسبسکرائب کریں'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'ہو گیا۔ آپ کو مزید یہ نوٹیفکیشنز میل میں موصول نہیں ہوں گی؛ یہ اب بھی آپ کے ان باکس میں آئیں گی۔'
+  invalid: 'یہ لنک درست نہیں ہے، یا اب درست نہیں رہا۔'
+  preferences: 'میرے تمام ترجیحات'
+
+ja:
+  page_title: 購読解除
+  page_icon: 'ph:bold/bell-slash'
+  done: 完了しました。これらの通知はメールで受信しなくなりますが、受信トレイにはまだ届きます。
+  invalid: このリンクは無効であるか、もはや無効です。
+  preferences: すべての設定
+
+ko:
+  page_title: '구독 취소'
+  page_icon: 'ph:bold/bell-slash'
+  done: '완료. 더 이상 이 알림을 이메일로 받지 않으며, 여전히 받은 편지함에 도착합니다.'
+  invalid: '이 링크는 유효하지 않거나 더 이상 유효하지 않습니다.'
+  preferences: '내 모든 설정'
+
+bn:
+  page_title: 'অবসারণ করুন'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'কাজ সম্পন্ন। আপনি আর এই বিজ্ঞপ্তিগুলি মেইলে পাবেন না; সেগুলি এখনও আপনার ইনবক্সে আসবে।'
+  invalid: 'এই লিংকটি বৈধ নয়, অথবা এখন আর বৈধ নয়।'
+  preferences: 'আমার সমস্ত পছন্দ'
+
+th:
+  page_title: ยกเลิกการสมัคร
+  page_icon: 'ph:bold/bell-slash'
+  done: 'เสร็จสิ้น คุณจะไม่รับการแจ้งเตือนเหล่านี้ทางอีเมลอีกต่อไป; แต่ยังคงอยู่ในกล่องจดหมายของคุณ.'
+  invalid: 'ลิงก์นี้ไม่ถูกต้อง หรือไม่สามารถใช้งานได้อีกต่อไป.'
+  preferences: การตั้งค่าทั้งหมดของฉัน
+
+de:
+  page_title: Abbestellen
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Fertig. Sie werden diese Benachrichtigungen nicht mehr per E-Mail erhalten; sie landen weiterhin in Ihrem Posteingang.'
+  invalid: 'Dieser Link ist ungültig oder nicht mehr gültig.'
+  preferences: 'Alle meine Einstellungen'
+
+fi:
+  page_title: 'Peruuta tilaus'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Valmis. Et enää saa näitä ilmoituksia sähköpostitse; ne saapuvat silti postilaatikkoosi.'
+  invalid: 'Tämä linkki ei ole voimassa tai se ei ole enää voimassa.'
+  preferences: 'Kaikki asetukseni'
+
+ru:
+  page_title: Отписаться
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Готово. Вы больше не будете получать эти уведомления по почте; они по-прежнему будут приходить в ваш почтовый ящик.'
+  invalid: 'Эта ссылка недействительна или больше не работает.'
+  preferences: 'Все мои настройки'
+
+pl:
+  page_title: 'Wypisz się'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Gotowe. Nie będziesz już otrzymywać tych powiadomień na maila; nadal trafiają do twojej skrzynki odbiorczej.'
+  invalid: 'Ten link jest nieprawidłowy lub już nie działa.'
+  preferences: 'Wszystkie moje preferencje'
+
+es:
+  page_title: 'Darse de baja'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Listo. Ya no recibirás estas notificaciones por correo; aún llegarán a tu bandeja de entrada.'
+  invalid: 'Este enlace no es válido, o ya no lo es.'
+  preferences: 'Todas mis preferencias'
+
+it:
+  page_title: Disiscrivi
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Fatto. Non riceverai più queste notifiche via email; continueranno a finire nella tua casella di posta.'
+  invalid: 'Questo link non è valido, o non lo è più.'
+  preferences: 'Tutte le mie preferenze'
+
+pt_BR:
+  page_title: 'Cancelar inscrição'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Concluído. Você não receberá mais essas notificações por e-mail; elas ainda vão para a sua caixa de entrada.'
+  invalid: 'Este link não é válido ou não é mais válido.'
+  preferences: 'Todas as minhas preferências'
+
+tr:
+  page_title: 'Aboneliği İptal Et'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Tamam. Artık bu bildirimleri e-posta ile almayacaksınız; yine de gelen kutunuza düşer.'
+  invalid: 'Bu bağlantı geçerli değil veya artık geçerli değil.'
+  preferences: 'Tüm tercihlerim'
+
+vi:
+  page_title: 'Hủy đăng ký'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Đã hoàn tất. Bạn sẽ không còn nhận những thông báo này qua email nữa; chúng vẫn sẽ đến hộp thư của bạn.'
+  invalid: 'Liên kết này không hợp lệ, hoặc không còn hợp lệ nữa.'
+  preferences: 'Tất cả sở thích của tôi'
+
+id:
+  page_title: 'Berhenti berlangganan'
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Selesai. Anda tidak akan lagi menerima notifikasi ini melalui email; namun, mereka masih masuk ke kotak masuk Anda.'
+  invalid: 'Tautan ini tidak valid, atau sudah tidak berlaku lagi.'
+  preferences: 'Semua preferensi saya'
+
+nl:
+  page_title: Afmelden
+  page_icon: 'ph:bold/bell-slash'
+  done: 'Klaar. Je ontvangt deze meldingen niet meer per e-mail; ze komen nog steeds in je inbox.'
+  invalid: 'Deze link is ongeldig, of is dat niet meer.'
+  preferences: 'Al mijn voorkeuren'

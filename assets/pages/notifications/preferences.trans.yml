@@ -12,3 +12,103 @@ zh:
   page_title: 通知偏好设置
   page_icon: 'ph:bold/sliders-horizontal'
   intro: 每条通知都会进入您的收件箱。选择哪些通知也通过邮件发送给您。
+
+ar:
+  page_title: 'تفضيلات الإشعارات'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'تصل كل إشعار إلى صندوق الوارد الخاص بك. اختر أيها يصل إليك أيضًا عبر البريد.'
+
+hi:
+  page_title: 'सूचना प्राथमिकताएँ'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'प्रत्येक सूचना आपकी इनबॉक्स में आती है। चुनें कि कौन सी आपको मेल द्वारा भी प्राप्त हो।'
+
+he:
+  page_title: 'העדפות התראות'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'כל התראה מגיעה לתיבת הדואר שלך. בחר אילו מהן יגיעו גם בדואר.'
+
+fa:
+  page_title: 'تنظیمات اعلان'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'هر اعلان به صندوق ورودی شما می‌رسد. انتخاب کنید کدام‌یک از آن‌ها نیز به شما ایمیل شود.'
+
+ur:
+  page_title: 'نوٹیفکیشن کی ترجیحات'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'ہر نوٹیفکیشن آپ کے ان باکس میں آتا ہے۔ منتخب کریں کہ کون سی آپ کو ای میل کے ذریعے بھی ملے۔'
+
+ja:
+  page_title: 通知設定
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: すべての通知が受信トレイに届きます。どの通知をメールでも受け取るか選択してください。
+
+ko:
+  page_title: '알림 설정'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: '모든 알림이 귀하의 받은편지함에 도착합니다. 어떤 알림이 이메일로도 발송될지 선택하세요.'
+
+bn:
+  page_title: 'নোটিফিকেশন পছন্দসমূহ'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'প্রতিটি নোটিফিকেশন আপনার ইনবক্সে আসে। কোনগুলো আপনার কাছে মেইলে পৌঁছাবে তা বেছে নিন।'
+
+th:
+  page_title: การตั้งค่าการแจ้งเตือน
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'การแจ้งเตือนแต่ละรายการจะไปอยู่ในกล่องจดหมายของคุณ เลือกว่าคุณต้องการให้การแจ้งเตือนใดไปถึงคุณทางอีเมลด้วย'
+
+de:
+  page_title: Benachrichtigungspräferenzen
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Jede Benachrichtigung landet in Ihrem Posteingang. Wählen Sie aus, welche auch per E-Mail an Sie gesendet werden.'
+
+fi:
+  page_title: Ilmoitusasetukset
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Jokainen ilmoitus saapuu postilaatikkoosi. Valitse, mitkä myös tavoittavat sinut sähköpostitse.'
+
+ru:
+  page_title: 'Настройки уведомлений'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Каждое уведомление попадает в ваш почтовый ящик. Выберите, какие из них также будут приходить вам на почту.'
+
+pl:
+  page_title: 'Preferencje powiadomień'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Każde powiadomienie trafia do twojej skrzynki. Wybierz, które z nich chcesz otrzymywać także na maila.'
+
+es:
+  page_title: 'Preferencias de notificación'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Cada notificación llega a tu bandeja de entrada. Elige cuáles también te llegan por correo.'
+
+it:
+  page_title: 'Preferenze di notifica'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Ogni notifica arriva nella tua casella di posta. Scegli quali devono arrivarti anche via email.'
+
+pt_BR:
+  page_title: 'Preferências de notificação'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Cada notificação chega na sua caixa de entrada. Escolha quais também te alcançam por e-mail.'
+
+tr:
+  page_title: 'Bildirim tercihleri'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Her bildirim gelen kutunuza gelir. Hangilerinin size e-posta ile ulaşacağını seçin.'
+
+vi:
+  page_title: 'Tùy chọn thông báo'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Mỗi thông báo sẽ đến hộp thư của bạn. Chọn những thông báo nào cũng sẽ được gửi qua mail.'
+
+id:
+  page_title: 'Preferensi notifikasi'
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Setiap notifikasi masuk ke kotak masuk Anda. Pilih mana yang juga sampai kepada Anda melalui email.'
+
+nl:
+  page_title: Meldingsvoorkeuren
+  page_icon: 'ph:bold/sliders-horizontal'
+  intro: 'Elke melding komt in je inbox. Kies welke ook per e-mail naar je gestuurd worden.'
