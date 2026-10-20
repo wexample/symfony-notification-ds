@@ -1,6 +1,6 @@
 # symfony-notification-ds
 
-Version: 2.0.5
+Version: 2.0.6
 
 Design-system screens for symfony-notification: the inbox, the preferences, the page an unsubscribe link opens
 
@@ -25,10 +25,10 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-notification: >=2.1.0
-- wexample/symfony-design-system: >=38.0.0
+- wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-forms: >=14.0.0
-- wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.3.0
+- wexample/symfony-helpers: >=18.0.0
+- wexample/symfony-loader: >=24.0.0
 
 ## Versioning & Compatibility Policy
 
