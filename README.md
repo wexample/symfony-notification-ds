@@ -1,63 +1,36 @@
 # symfony-notification-ds
 
-Version: 2.0.7
+Version: 2.0.8
 
 Design-system screens for symfony-notification: the inbox, the preferences, the page an unsubscribe link opens
 
 ## Table of Contents
 
-- [Integration in the Suite](#integration-in-the-suite)
-- [Dependencies](#dependencies)
-- [Versioning & Compatibility Policy](#versioning--compatibility-policy)
-- [License](#license)
-- [About us](#about-us)
-- [Migration Notes](#migration-notes)
+- [Installation](#installation)
 
-## Integration in the Suite
+## Installation
 
-This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
+```php
+// config/bundles.php
+Wexample\SymfonyNotification\WexampleSymfonyNotificationBundle::class => ['all' => true],
+Wexample\SymfonyNotificationDs\WexampleSymfonyNotificationDsBundle::class => ['all' => true],
+```
 
-### Related Packages
+The screens of symfony-notification, drawn with the design system.
 
-The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
+| Route | Path | What |
+|---|---|---|
+| `notification_inbox` | `/notifications` | the inbox of the signed-in account, newest first, a line each, lit while unread |
+| `notification_inbox_unread` | `/notifications/unread` | the unread ones only |
+| `notification_inbox_open` | `/notifications/{id}/open` | marks it read, then goes to its subject — or back to the inbox |
+| `notification_inbox_read_all` | `POST /notifications/read-all` | marks everything read, with the application's `submit` form token |
+| `notification_preferences` | `/notifications/preferences` | a switch per category and personal channel, filed under the category's `group` |
+| `notification_unsubscribe` | `/notifications/unsubscribe` | where the signed link of a mail leads, signed in or not |
 
-## Dependencies
+The names are symfony-notification's `Routing\NotificationRoute`. `notification_unread_count()` gives the unread count of the signed-in account, for a badge in the user menu:
 
-- php: >=8.5
-- wexample/symfony-notification: >=2.1.0
-- wexample/symfony-design-system: >=39.0.0
-- wexample/symfony-forms: >=14.0.0
-- wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=25.0.0
+```twig
+{ icon: 'ph:bold/bell', label: 'WexampleSymfonyNotificationDsBundle.pages.notifications.index::page_title' | trans ~ (notification_unread_count() ? ' (' ~ notification_unread_count() ~ ')' : ''), href: path('notification_inbox') },
+```
 
-## Versioning & Compatibility Policy
-
-Wexample packages follow **Semantic Versioning** (SemVer):
-
-- **MAJOR**: Breaking changes
-- **MINOR**: New features, backward compatible
-- **PATCH**: Bug fixes, backward compatible
-
-We maintain backward compatibility within major versions and provide clear migration guides for breaking changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use in both personal and commercial projects.
-
-## About us
-
-[Wexample](https://wexample.com) stands as a cornerstone of the digital ecosystem — a collective of seasoned engineers, researchers, and creators driven by a relentless pursuit of technological excellence. More than a media platform, it has grown into a vibrant community where innovation meets craftsmanship, and where every line of code reflects a commitment to clarity, durability, and shared intelligence.
-
-This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
-
-Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
-
-Built and maintained by [Romain Weeger](https://weeger.io).
-
-## Migration Notes
-
-When upgrading between major versions, refer to the migration guides in the documentation.
-
-Breaking changes are clearly documented with upgrade paths and examples.
+A category's channels are named on the preferences page from `forms/notification_preferences_form.trans.yml` (`channel.mail`): an application adding a personal channel names it there, in its override of the file.
