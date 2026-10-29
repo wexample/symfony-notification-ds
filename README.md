@@ -1,6 +1,6 @@
 # symfony-notification-ds
 
-Version: 2.0.12
+Version: 2.0.13
 
 Design-system screens for symfony-notification: the inbox, the preferences, the page an unsubscribe link opens
 
