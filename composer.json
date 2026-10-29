@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-notification-ds",
   "description": "Design-system screens for symfony-notification: the inbox, the preferences, the page an unsubscribe link opens",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -21,7 +21,7 @@
     "wexample/symfony-design-system": ">=41.0.0",
     "wexample/symfony-forms": ">=14.0.2",
     "wexample/symfony-helpers": ">=19.1.0",
-    "wexample/symfony-loader": ">=26.0.0"
+    "wexample/symfony-loader": ">=26.1.0"
   },
   "repositories": [
     {
